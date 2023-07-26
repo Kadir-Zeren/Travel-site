@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
     <title>Travel Site</title>
   </head>
   <body>
@@ -24,6 +24,8 @@
       </ul>
     </nav>
     <main>
+      <!-- home -->
+
       <section class="home">
         <div class="home__form">
           <h2>Explore Travel</h2>
@@ -44,6 +46,9 @@
         </div>
         <div class="home__image"></div>
       </section>
+
+      <!-- about -->
+
       <section class="about">
         <div class="about__image"></div>
         <div class="about__text">
@@ -56,6 +61,9 @@
           <button class="about__text--button">Learn More</button>
         </div>
       </section>
+
+      <!-- destination -->
+
       <section class="destination">
         <div class="destination__header">
           <h3>Featured destinations</h3>
@@ -66,15 +74,13 @@
               height="9"
               viewBox="0 0 6 11"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M1 1L5 5.5L1 10"
                 stroke="#FB8F1D"
                 stroke-width="2"
                 stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+                stroke-linejoin="round" />
             </svg>
           </button>
         </div>
@@ -97,7 +103,7 @@
             <img src="./assets/Vevey.jpg" loading="lazy" alt="" />
             <p>
               <span>Vevey</span>
-              <span>Switezerland</span>
+              <span>Switzerland</span>
             </p>
           </div>
           <div class="destination__card">
@@ -109,6 +115,9 @@
           </div>
         </div>
       </section>
+
+      <!-- guides -->
+
       <section class="guide">
         <div class="guide__text">
           <h2 class="guide__text--header">A new way to explore the world</h2>
@@ -119,9 +128,10 @@
           </p>
           <button class="guide__text--button">Learn More</button>
         </div>
-        <div class="guide"></div>
+        <div class="guide__image"></div>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
       <div class="footer__icons">
         <i class="fab fa-twitter fa-2x social1"></i>
@@ -135,5 +145,6 @@
         <i class="fab fa-youtube fa-2x social5"></i>
       </div>
     </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>

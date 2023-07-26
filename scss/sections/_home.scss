@@ -1,4 +1,4 @@
-// home
+
 .home {
   margin: 1rem auto;
   width: 90%;
@@ -25,8 +25,8 @@
     form {
       @include flexMix(flex, space-between);
       padding: 1rem 0;
-      gap: 0.5rem;
       flex-wrap: wrap;
+      gap: 0.5rem;
       width: 100%;
       select {
         width: 48%;
@@ -39,7 +39,7 @@
       }
     }
     &--button {
-     @include btnMix(90px)
+      @include btnMix(90px);
     }
   }
 }
