@@ -258,7 +258,22 @@
   width: 50%;
   background-color: #ffffff;
   border-radius: 0px 6px 0px 0px;
-  span: nth-child(odd);
+}
+.destination__group__card p span:nth-child(odd) {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: auto;
+  color: #042521;
+}
+.destination__group__card p span:nth-child(even) {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 0.7rem;
+  line-height: auto;
+  color: #80918e;
 }
 
 body {

@@ -54,7 +54,14 @@
         width: 50%;
         background-color: $mainColor;
         border-radius: 0px 6px 0px 0px;
-        span:nth-child(odd)
+        span:nth-child(odd) {
+          @include fontMix("Inter", normal, 600, 0.9rem, auto);
+          color: #042521;
+        }
+        span:nth-child(even) {
+          @include fontMix("Inter", normal, 200, 0.7rem, auto);
+          color: #80918e;
+        }
       }
     }
   }
